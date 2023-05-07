@@ -5,6 +5,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .heading {
@@ -18,16 +20,41 @@
 }
 
 .grid-child {
-  border: 5px solid black;
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
 }
 
 .grid-child h3{
   font-family: Poppins;
   font-weight: 500;
 }
-
 .grid-child p {
   font-family: Poppins;
   font-weight: 500;
   font-size: 15px;
+}
+
+.text-area {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.action-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
 }
